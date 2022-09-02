@@ -1,0 +1,638 @@
+<resources>
+    <string name="app_name">MFFJM</string>
+    <string name="cypres_menu_title">MILITARY CYPRES CALCULATOR</string>
+    <string name="aircraft_alt_setting">Aircraft Altimeter Setting (inHg/mbar):</string>
+    <string name="altimeter_menu_title">ALTIMETER\nCALCULATOR</string>
+    <string name="daf_elevation">DAF Elevation (ft MSL):</string>
+    <string name="sustained_01">All U.S. Army MFF jumpers will receive SAT within the 24-hour period
+        immediately prior to station time of an MFF operation. \n\nPrior to SAT, MFF jumpmasters will ensure
+        all jumpers are in the designated uniform, have appropriate equipment, and have their equipment
+        properly rigged. This appendix describes the four major areas of SAT for MFF RA-1 jumps.</string>
+    <string name="sat_note_first_page"><b>Note:</b> Except for the jumpmaster briefing, SAT will be performance oriented.</string>
+    <string name="sat_overview_first_page">At a minimum, MFF SAT will consist of the following:
+        \n•\t\t\t<b>Jumpmaster Briefing.</b> The jumpmaster briefing will include a manifest call, check of
+        identification card and tags, and inspection of the jumper’s uniform and their rigged
+        individual equipment.
+        \n•\t\t\t<b>Aircraft Procedures.</b> Aircraft procedures will include mock door rehearsals and emergency
+        procedures. Field expedient mockups can be used. The rehearsal will be performance
+        oriented and conducted in the same manner as the actual operation. The actual jumpmaster
+            will conduct the rehearsal.
+        \n•\t\t\t<b>Exit Procedures.</b> Exit procedures will include aircraft emergency procedures, oxygen
+        procedures (if used), exit procedures, actions during free-fall, and other emergency
+        procedures. The rehearsal will be conducted where all jumpers can observe and hear the
+        jumpmaster.
+        \n•\t\t\t<b>Canopy Control and Landing Procedures.</b> This portion of SAT will include performance oriented training.</string>
+    <string name="jumpmaster_briefing_overview">Jumpmasters will brief the outline below to ensure all jumpers understand who the key personnel
+        are and also understand the MFF operation, DZ, type of aircraft being jumped, emergency procedures, and the weather conditions.</string>
+    <string name="sustained_key_personnel_left">Airborne commander officer in charge/ noncommissioned
+        officer in charge. \nJumpmaster. \nAssistant jumpmaster. \nOxygen safety. \nPhysiological technician.
+        \nEquipment noncommissioned officer. \nDrop zone safety officer. \nParachute rigger.</string>
+    <string name="sustained_key_personnel_right">Malfunction noncommissioned officer. \nDrop zone medic.
+        \nDrop zone communicator. \nSafety boat driver. \nSafety boat diver. \nSafety vehicle driver.</string>
+    <string name="sustained_op_data_left">Type jump: NT/day/night/water admin/tactical oxygen/CE/weapon. \nDrop altitude.
+        \nPull altitude.</string>
+    <string name="sustained_op_data_right">Magnetic heading/distance to desired impact point.
+        \nDrop zone location on exit.</string>
+    <string name="sustained_drop_zone_left">Length.\nWidth.\nDrop zone elevation (mean sea level).
+        \nAltimeter/Cybernetic Parachute Release System setting. \nDesired impact point. \nLanding pattern.
+        \nAssembly area.</string>
+    <string name="sustained_drop_zone_right">Method of marking.\nTerrain description.\nObstacles on/around the drop zone.
+        \nTrack of aircraft.\nAlternate landing areas.</string>
+    <string name="sustained_aircraft_left">Type.\nAircraft heading.\nHigh-altitude release point.
+        \nType of exit.\nExit dispersion.\nExit altitude.</string>
+    <string name="sustained_aircraft_right">Number of passes.\nExit order.\nAircraft configuration/seating.
+        \nLocation of key personnel.</string>
+    <string name="sustained_weather_left">Source of weather data.\nTime/location of weather data.
+        \nForecasted winds.\nDirection.\nVelocity.</string>
+    <string name="sustained_weather_right">Temperature at exit altitude.\nTemperature at surface altitude.
+        \nCeiling/cloud coverage.\nVisibility.\nOther.</string>
+    <string name="aircraft_emergencies_on_ground">The following procedures will be used for an emergency prior to takeoff:
+        \n•\t\t\tJumpers take all commands from the primary jumpmaster.
+        \n•\t\t\tJumpers exit the aircraft and assemble 300 meters in a safe direction, as directed by the primary
+        jumpmaster. Once assembled, jumpers report to the primary jumpmaster.  </string>
+    <string name="crash_landing">The following procedures will be used for an emergency during takeoff to 1,000 feet AGL:
+        \n•\t\t\tPrepare for a crash landing. The signal will be six short rings of alarm bell or verbal warning to
+        alert jumpers to prepare for a crash landing. One long continuous bell from the aircrew will
+        indicate that a crash is imminent.
+        \n•\t\t\tJumpers prepare for the crash by remaining seated, fastening their seat belts, and assuming the
+        emergency landing position (cover head with arms and brace for impact).
+        \n•\t\t\tWait for the aircraft to come to a complete stop; unbuckle.
+        \n•\t\t\tExit and assemble upwind 300 meters off the nose of the aircraft or upwind of the aircraft in a
+        safe distance and direction indicated by the jumpmaster.
+        \n•\t\t\tConduct a head count, administer first aid, and signal for help.</string>
+    <string name="emergency_bailout_low_alt">The jumpmaster will give the emergency bailout signal by extending
+        his arm straight up and moving it in a circular motion with index finger pointed. The following procedures
+        will be used:
+        \n•\t\t\tPrepare for an emergency bailout. The signal will be three short rings of alarm bell or a verbal
+        warning will alert jumpers to prepare for an emergency bailout.
+        \n•\t\t\tThe jumpmaster will give the emergency bailout signal by extending his arm over his head with
+        the index finger pointed and moving it in a circular motion.
+        \n•\t\t\tThe jumpmaster will then place a clenched fist over his reserve ripcord handle and thrust it out
+        to the side, indicating that the jumper will exit on their reserve.
+        \n•\t\t\tThe jumpmaster may issue abbreviated jump commands if time permits.
+        \n•\t\t\tOn the jumpmaster’s command, the jumper will conduct a dive exit opposite of the jumper in
+        front of him.
+        \n•\t\t\tAll jumpers will clear the aircraft and deploy the reserve canopy.
+        \n•\t\t\tAll jumpers will complete the canopy controllability check, attempt to land with other jumpers,
+        and assemble for a head count.</string>
+    <string name="emergency_bailout_high_alt">The jumpmaster will give the emergency bailout signal by extending his
+        arm straight up and moving it in a circular motion with index finger pointed. The following procedures will be used:
+        \n•\t\t\tPrepare for an emergency bailout. The signal will be three short rings of alarm bell or a verbal
+        warning will alert jumpers to prepare for an emergency bailout.
+        \n•\t\t\tThe jumpmaster may issue abbreviated jump commands if time permits.
+        \n•\t\t\tThe jumpmaster will give the emergency bailout signal by extending his arm over his head with
+        the index finger pointed and moving it in a circular motion.
+        \n•\t\t\tThe jumpmaster will then place a clenched fist over his main OTS ripcord handle and thrust it
+        out to the side or point to the BOC, indicating that jumpers will exit on their main canopy.
+        \n•\t\t\tOn the jumpmaster’s command, the jumper will execute a dive exit opposite of the jumper in
+        front of him.
+        \n•\t\t\tAll jumpers will clear the aircraft and deploy the main canopy with no more than a 5-second
+        delay.
+        \n•\t\t\tAll jumpers will complete the canopy controllability check, attempt to land with other jumpers,
+        and assemble for a head count.</string>
+    <string name="pilot_chute_activation_in_aircraft">With the ramp or doors OPENED or CLOSED, procedures for a
+        premature activation of the pilot chute inside the aircraft are as follows:
+        \n•\t\t\tWith the ramp or doors CLOSED: Shout “PILOT CHUTE,” contain it, and notify the jumpmaster
+        (to ensure the ramp or doors do not open). If the pilot chute activates or the container comes
+        open, the container will be closed and the jumper will be seated, will fasten his seat belt, and will
+        not jump.
+        \n•\t\t\tWith the ramp or doors OPEN: Shout “PILOT CHUTE,” attempt to contain it, and notify the
+        jumpmaster.
+        \n•\t\t\tOnce the parachute is contained, the jumper will move away from the open exit to a safe area
+        forward in the aircraft.
+        \n•\t\t\tIf the reserve pilot chute is deployed, the jumper will be moved to the front of the aircraft. He will
+        remove his equipment and place the parachute system inside the kit bag. He will fasten his seat
+        belt and land with the aircraft.
+        \n•\t\t\tIf the pilot chute or parachute is pulled outside the aircraft, the jumper and jumpers in front of
+        the jumper must exit immediately.</string>
+    <string name="non_oxygen_aircraft_procedures"><b><i>Note:</i></b>  For the purpose of this segment, commands and procedures
+        are written in capital letters.
+        \nThe following aircraft procedures and jump commands will be used for nonoxygen jumps:
+        \n•\t\t\t<b>LOAD AIRCRAFT.</b> Load the aircraft on the jumpmaster’s signal in reverse stick order.
+        \n•\t\t\t<b>DON HELMETS. </b>Don helmets and fasten seat belts.
+        \n•\t\t\t<b>UNFASTEN SEAT BELTS.</b> At 1,001 feet AGL, unfasten seat belts at the jumpmaster’s
+        command. Helmets may be removed at the jumpmaster’s discretion.
+        \n•\t\t\t<b>20-MINUTES. </b>At the 20-minute warning, everyone awake and keep eyes on the jumpmaster.
+        \n•\t\t\t<b>10-MINUTES. </b>At the 10-minute warning, keep eyes on the jumpmaster and don helmets if removed.
+        \n•\t\t\t<b>Obtain update on winds.</b> Updated winds from the DZ, expressed in knots.
+        \n•\t\t\t<b>CYPRES/PIN CHECK. </b>Jumpers receive a CYPRES and pin check.
+        \n•\t\t\t<b>STAND UP. </b>Given 2 minutes from release point. Stand up, face rear of the aircraft, check
+        CYPRES and pins on jumper in front of you and give him a thumbs-up, then conduct a check of
+        all your handles and equipment.
+        \n•\t\t\t<b>MOVE TO THE REAR.</b> Given approximately 1 minute from TOT. Pass signal back, then first
+        jumper moves to hinge of ramp or 1 meter from jump door.
+        \n•\t\t\t<b>STAND BY.</b> Given approximately 15 seconds from TOT. Return a thumbs-up. First jumper
+        moves to edge of ramp or to jump door.
+        \n•\t\t\t<b>GO. </b>Given at the release point. Exit as briefed.
+        \n•\t\t\t<b>ABORT. </b>Given when release conditions are not favorable. Back up to hinge of ramp and await
+        further instructions.
+        \n<b><i>Note:</i></b>  If at any time you experience an equipment-related problem, extend your arm toward the center of the
+        aircraft and give a thumbs down signal.</string>
+    <string name="oxygen_aircraft_procedures"><b><i>Note:</i></b>  For the purpose of this segment, commands and procedures
+        are written in capital letters.
+        \nThe following aircraft procedures and jump commands will be used for oxygen jumps:
+        \n•\t\t\t<b>LOAD AIRCRAFT.</b> Load the aircraft on the jumpmaster’s signal in reverse stick order and—
+        \n\t\t•\t\tWait to be seated by the oxygen representative.
+        \n\t\t•\t\tReceive console hose from the oxygen representative and connect to console.
+        \n•\t\t\t<b>DON HELMETS. </b>Don helmets and fasten seat belts.
+        \n•\t\t\t<b>UNFASTEN SEAT BELTS.</b> At 1,001 feet AGL, unfasten seat belts at the jumpmaster’s command.
+        \n•\t\t\t<b>20-MINUTES. </b>At the 20-minute warning, everyone awake and keep eyes on the jumpmaster.
+        \n•\t\t\t<b>10-MINUTES. </b>At the 10-minute warning, keep eyes on the jumpmaster.
+        \n•\t\t\t<b>Obtain update on winds.</b> Updated winds from the DZ, expressed in knots.
+        \n•\t\t\t<b>CYPRES/PIN CHECK. </b>Jumpers receive a CYPRES and pin check.
+        \n•\t\t\t<b>MASK.</b> On the command MASK:
+        \n\t\t•\t\tConnect right side oxygen fitting.
+        \n\t\t•\t\tEnsure you have a positive oxygen flow and extend a thumbs-up to the center of the aircraft.
+        Hold the signal until the jumpmaster checks the entire aircraft and return a thumbs-up.
+        Follow this procedure every time the jumpmaster initiates an oxygen check.
+        \n<b><i>Note:</i></b>  Do not remove helmets during oxygen operations. Clear goggles must be worn during oxygen jump
+        operations. If at any time you experience oxygen-related problems, extend your arm, palm down, toward the
+        center of the aircraft.
+        \n•\t\t\t<b>STAND UP. </b>Stand up, face the rear of the aircraft, check CYPRES, pins, and the oxygen bottle
+        of the jumper to your front ensuring they are on and have sufficient pressure. (Gauge needle
+        should be at 1 or above. Notify the jumpmaster, assistant jumpmaster, or oxygen representative
+        of any deficiencies that are identified.) Check your handles and equipment; place right hand on
+        the quick disconnect.
+        \n•\t\t\t<b>MOVE TO THE REAR.</b> Given approximately 1 minute from TOT. Pass signal back. The oxygen
+        representative, assistant jumpmaster, and/or jumper will disconnect from the console and ensure
+        you have a positive flow of oxygen. The first jumper moves to the hinge of ramp or 1 meter from
+        jump door.
+        \n•\t\t\t<b>STAND BY.</b> Given approximately 15 seconds from TOT. Return a thumbs-up. First jumper
+        moves to edge of ramp or to the jump door.
+        \n•\t\t\t<b>GO. </b>Given at the release point. Exit as briefed.
+        \n•\t\t\t<b>ABORT. </b>Given when release conditions are not favorable. Back up to hinge of ramp or 1 meter
+        from the open door and await further instructions.
+        \n<b>After Exiting:</b>
+        \n\t\t•\t\tLeave the mask connected until landing.
+        \n\t\t•\t\tAfter landing, turn off the oxygen bottle and disconnect the mask. Place mask in the
+        container and replace red caps on all fittings.</string>
+    <string name="altimeter_failure_prior_to_exit">If the jumper’s altimeter fails on the aircraft, use the following procedures:
+        \n•\t\t\tThe jumper will inform a jumpmaster and the defective altimeter will be exchanged with an
+        onboard spare.
+        \n•\t\t\tIf the onboard spare is in use or both altimeters fail prior to exit, the jumper will be moved to the
+        front of the aircraft to a safe location, remain seated, and air land with the aircraft.
+        \n<b><i>Note:</i></b> Even with an altimeter failure, the jumpmaster can command the jumper to exit the aircraft in an
+        emergency situation.</string>
+    <string name="equipment_malfunction">Procedures for an equipment malfunction on the aircraft are as follows:
+        \n•\t\t\tJumper gets the attention of the jumpmaster by extending his arm straight out with his thumb
+        pointing down.
+        \n•\t\t\tJumpmaster will correct the malfunction or make the determination for the jumper to land with
+        the aircraft.</string>
+    <string name="exit_procedures_subtitle">As per jumpmaster’s brief, jumpers will exit on a designated heading
+        without losing stability in a controlled exit by executing a dive exit, poise exit, or box-man exit.
+        Jumpmasters will cover all emergency procedures in this section.</string>
+    <string name="emergency_procedures_on_exit">Procedures for a jumper in tow by equipment are as follows:
+        \n•\t\t\tThe jumpmaster will try to free the hung equipment or cut the jumper free. As the jumper falls
+        free, he will attempt to get into a good exit position. If the main parachute fails to deploy when
+        pulled, the jumper will immediately execute cutaway procedures.
+        \n•\t\t\tIf the jumper is unconscious, the jumpmaster will attempt to pull the jumper inside the aircraft.</string>
+    <string name="collision_on_exit">Procedures for a collision on exit are as follows:
+        \n•\t\t\tJumper will maintain his arch and gently push off the other jumper with an open hand.
+        \n•\t\t\tAll jumpers involved will regain their stability, check their altimeter, check their ripcord handles,
+        and continue the free-fall as planned.
+        \n•\t\t\tJumpers making contact with other jumpers during exit will not grab any part of the other jumper
+        or equipment if contact is made.</string>
+    <string name="emergencies_in_freefall">Procedures for emergencies during free-fall are as follows:
+        \n•\t\t\t<b>Spinning.</b> Arch, check your hands and feet, counter the spin and maintain altitude awareness.
+        If spinning out of control and unable to maintain altitude awareness, wave off and pull.
+        \n•\t\t\t<b>Tumbling.</b> Arch, keep your head up, check your hands and feet, and maintain altitude
+        awareness. If tumbling out of control and unable to maintain altitude awareness, wave off and pull.
+        \n•\t\t\t<b>Entering a Cloud or Loss of Visibility.</b> Stop all movement and return to a stable, relaxed arch.
+        Maintain altitude awareness. Pull at the prescribed altitude even if you are still in the cloud.
+        \n•\t\t\t<b>Lost or Loose Goggles.</b> If your goggles become loose or dislodged during free-fall, make one
+        attempt to replace them. If unsuccessful, continue the free-fall as planned. Squint your eyes in
+        order to maintain your vision. Maintain altitude awareness and pull at the prescribed altitude.
+        \n•\t\t\t<b>Altimeter Failure or Lost Altimeter During Free-Fall.</b> During both day and night operations,
+        observe other jumpers and pull when they do. If no other jumpers can be observed, clear your
+        air space, wave off, and pull your main ripcord immediately.
+        \n•\t\t\t<b>Rucksack Shifts.</b> Counter any turn caused by the rucksack shifting in free-fall by turning in the
+        opposite direction. If the rucksack strap moves below his knee, the jumper makes one attempt
+        to replace it while maintaining stability. If the jumper loses altitude awareness and is unable to
+        gain control, he will wave off and pull the main OTS ripcord or deploy the hand-deployed pilot
+        chute from the BOC.
+        \n•\t\t\t<b>Collision Avoidance During Free-Fall.</b> Jumpers—
+        \n\t\t•\t\tRemember that the lower jumper has the right-of-way.
+        \n\t\t•\t\tNever get over the top of another jumper.
+        \n\t\t•\t\tUse forward glide, back slide, or side slide to get off a jumper’s back.</string>
+    <string name="premature_activation_freefall">In the event of a premature activation of a parachute in free-fall,
+        the jumper must first determine which parachute has activated. Procedures for premature activation of a parachute
+        in free-fall are as follows:
+        \n•\t\t\t<b>Premature Opening: Main Parachute.</b> If the jumper has a premature opening of the main
+        parachute, he will be able to determine if it is the main parachute by the three-ring assembly,
+        deployment bag, and pilot chute. The jumper will conduct a controllability check and continue as
+        planned.
+        \n•\t\t\t<b>Premature Opening: Reserve Parachute.</b> If the jumper has a premature opening of the reserve
+        parachute, he will be able to determine if it is the reserve parachute by NO three-ring assembly
+        (snowman) on reserve risers, NO deployment bag, NO pilot chute, NO trim tabs on risers, center
+        of reserve slider will have a mesh, and the bottom skin of the reserve canopy will have square
+        holes. The jumper will conduct postopening procedures and continue the jump as planned. The
+        jumper will not activate the main parachute.</string>
+    <string name="pull_priorities">Procedures for main canopy deployment during free-fall are as follows:
+        \n•\t\t\t<b>Pull.</b>
+        \n•\t\t\t<b>Never sacrifice altitude for stability.</b>
+        \n<b>For OTS Ripcord.</b> At the prescribed pull altitude, maintain your ARCH, use head tilt method to LOOK at the
+        main ripcord and with the right hand, TRACE the main ripcord cable housing to the main ripcord handle while
+        moving your left hand into the counter position. PULL the ripcord to full-arm extension and CHECK over the
+        right shoulder to ensure the pilot chute has launched.
+        \n<b>For BOC with Hand-Deployed Pilot Chute.</b> At the prescribed pull altitude, maintain your ARCH, maintain
+        positive legs, and keep head and eyes up on the horizon. The jumper reaches and grabs the handle of the hand-deployed
+        pilot chute with his right hand while countering with the left hand. PULL the hand-deployed pilot chute
+        out of the BOC pouch and turn the right hand palm to the rear, extending the right arm to full-arm extension to
+        RELEASE the hand-deployed pilot chute. CHECK over the right shoulder to ensure the pilot chute has launched.</string>
+    <string name="canopy_control_procedures">Upon canopy deployment, these procedures will be followed:
+        \n•\t\t\tPostopening: Check canopy, grasp rear risers, and clear air space.
+        \n•\t\t\tRiser turn toward DZ.
+        \n•\t\t\tUnstow toggles, gain canopy control, and assume position in formation.
+        \n•\t\t\tReach up and collapse slider. Conduct a canopy controllability check (3 S’s: Square, Stable, and
+        Serviceable).
+        \n•\t\t\tIf applicable, position HAHO seat under buttocks.</string>
+    <string name="canopy_flight">After canopy deployment, the jumper will use the following procedures during canopy flight:
+        \n•\t\t\t<b>Full Flight.</b> Arms fully extended. Maximizes forward airspeed.
+        \n•\t\t\t<b>Quarter Brakes.</b> Toggles at eye level. Slowest descent rate.
+        \n•\t\t\t<b>Half Brakes.</b> Toggles at chest level. Decreases forward airspeed by half.
+        \n•\t\t\t<b>Full Brakes.</b> Toggles at lowest possible level. No forward airspeed.
+        \n•\t\t\t<b>Full Flight Turn.</b> Toggle pulled to full arms extension. Fast and steep turn.
+        \n•\t\t\t<b>Half Brake Turn.</b> During half brakes, pull to full-arm extension the direction you want to turn
+        while maintaining half-braked opposite toggle. Turn will be slow and flat.
+        \n•\t\t\t<b>Front Riser Turn.</b> Faster and steeper.
+        \n•\t\t\t<b>Rear Riser Turn.</b> Faster and flatter.
+        \n•\t\t\t<b>Holding.</b> Into the wind.
+        \n•\t\t\t<b>Running.</b> With the wind.
+        \n•\t\t\t<b>Crabbing.</b> Crossing wind line at an angle.</string>
+    <string name="postexit_emergency_procedures">Malfunction types are as follows:
+        \n•\t\t\t<b>High-Speed Malfunction.</b> When the ripcord has been pulled, the deployment bag remains in
+        the container.
+        \n•\t\t\t<b>Low-speed Malfunction.</b> Container assembly opens, but canopy does not fully or properly deploy.
+        \n•\t\t\t<b>Cutaway Decision Altitude.</b> 2,500 feet AGL for high-speed and low-speed malfunction.</string>
+    <string name="cutaway_procedures_ots">Once you initiate the CUTAWAY sequence, continue it through to completion.
+        Cutaway procedures for OTS ripcord are as follows:
+        \n•\t\t\tTHROWAWAY main ripcord handle.
+        \n•\t\t\tARCH after assuming a hard-arch body position.
+        \n•\t\t\tCOUNTER with left hand.
+        \n•\t\t\tLOOK to identify the red cutaway pillow on the right main lift web, chest high, inboard.
+        \n•\t\t\tGRAB the red cutaway pillow with your right hand.
+        \n•\t\t\tPULL the red cutaway pillow to full-arm extension.
+        \n•\t\t\tTHROW AWAY the red cutaway pillow.
+        \n•\t\t\tCOUNTER with right hand.
+        \n•\t\t\tLOOK to identify the yellow reserve ripcord handle on the left main lift web, chest high, inboard.
+        \n•\t\t\tGRAB the yellow reserve ripcord handle with your left hand.
+        \n•\t\t\tPULL the yellow reserve ripcord handle to full-arm extension.
+        \n•\t\t\tTHROW AWAY the yellow reserve ripcord handle.
+        \n•\t\t\tCHECK over right shoulder to ensure the reserve pilot chute deploys.</string>
+    <string name="cutaway_procedures_boc">Once you initiate the CUTAWAY sequence, continue it through to completion.
+        Cutaway procedures for the BOC hand-deployed pilot chute are as follows:
+        \n•\t\t\tARCH after assuming a hard-arch body position.
+        \n•\t\t\tCOUNTER with left hand.
+        \n•\t\t\tLOOK to identify the red cutaway pillow on the right main lift web, chest high, inboard.
+        \n•\t\t\tGRAB the red cutaway pillow with your right hand.
+        \n•\t\t\tPULL the red cutaway pillow to full-arm extension.
+        \n•\t\t\tTHROW AWAY the red cutaway pillow.
+        \n•\t\t\tCOUNTER with right hand.
+        \n•\t\t\tLOOK to identify the yellow reserve ripcord handle on the left main lift web, chest high, inboard.
+        \n•\t\t\tGRAB the yellow reserve ripcord handle with your left hand.
+        \n•\t\t\tPULL the yellow reserve ripcord handle to full-arm extension.
+        \n•\t\t\tTHROW AWAY the yellow reserve ripcord handle.
+        \n•\t\t\tCHECK over right shoulder to ensure the reserve pilot chute deploys.</string>
+    <string name="total_malfunction">Only two attempts will be made to clear the total malfunctions listed below.
+        \n<b><i>Note:</i></b> Your first attempt is made during normal pull procedures.
+        \n•\t\t\t<b>Hard Ripcord Pull.</b>  For OTS ripcord, if the initial pull is unsuccessful, reach across with the left
+        hand in a punching motion and push the right hand and ripcord out. If this does not pull the
+        ripcord, execute cutaway procedures.
+        \n•\t\t\t<b>Hard Hand-Deployed Pilot Chute Pull.</b>  For BOC, if the initial pull is unsuccessful, use right
+        elbow on the side of the container as leverage when pulling the pilot chute from the BOC. If the
+        jumper is unsuccessful, he will execute cutaway procedures.
+        \n•\t\t\t<b>Floating Ripcord.</b>  Look at the ripcord stow pocket. Locate the ripcord housing with the
+        hand. Locate the ripcord cable, which should be protruding from the housing. Pull the cable. If
+        this attempt is unsuccessful, execute cutaway procedures.
+        \n•\t\t\t<b>Failure to Locate the BOC Hand-Deployed Pilot Chute Handle.</b>  Jumper will only make two
+        attempts to locate the hand-deployed pilot chute handle. If unsuccessful, the jumper will execute
+        cutaway procedures.
+        \n•\t\t\t<b>Pack Closure.</b>  After the jumper pulls the ripcord, he checks over the right shoulder. If no pilot
+        chute deploys, he immediately checks over the right shoulder again. If this does not correct the
+        problem, execute cutaway procedures.</string>
+    <string name="partial_malfunction">The below malfunctions are partial malfunctions; the jumper will execute cutaway
+        procedures immediately. NO attempt will be made to clear these partial malfunctions:
+        \n•\t\t\t<b>Horseshoe.</b> Pilot chute, parachute, or suspension lines are caught on you or your equipment.
+        Execute cutaway procedures immediately.
+        \n•\t\t\t<b>Bag Lock.</b> Canopy remains in deployment bag after pulling the main OTS ripcord or releasing
+        the main hand-deployed pilot chute. Execute cutaway procedures immediately.
+        \n•\t\t\t<b>Line-Over.</b> Suspension line(s) routed over the canopy causing a distorted or bowtie canopy.
+        Execute cutaway procedures immediately.</string>
+    <string name="deployment_emergencies">These procedures will be followed to correct the below actions during
+        deployment emergencies:
+        \n•\t\t\t<b>Hard Ripcord Pull (Main OTS Ripcord).</b> If the jumper pulls the main ripcord and the pull is
+        unsuccessful, the jumper will come across with the left hand in a punching motion and push the
+        right hand and ripcord out. If still unsuccessful, the jumper will perform cutaway procedures.
+        \n•\t\t\t<b>Hard Hand-Deployed Pilot Chute Pull (BOC).</b> If the initial pull is unsuccessful, the jumper will
+        use his right elbow on the side of the container as leverage when pulling the pilot chute from the
+        BOC. If the jumper is unsuccessful, he will execute cutaway procedures.
+        \n•\t\t\t<b>Floating Ripcord or Unable to See Ripcord (OTS Ripcord).</b> The jumper will maintain arch
+        and look at the OTS ripcord pocket. If the jumper is unable to see the ripcord or if it is floating,
+        he will locate the cable housing on his right shoulder with his right hand. The jumper will trace
+        the cable housing down to where the ripcord cable protrudes out. He will then make a circle with
+        his index finger and thumb around the cable and pull the cable to full-arm extension. The jumper
+        will only make one attempt; if unsuccessful, he will perform cutaway procedures.
+        \n•\t\t\t<b>Failure to Locate Hand-Deployed Pilot Chute Handle (BOC).</b> The jumper will only make two
+        attempts to locate the hand-deployed pilot chute handle. If unsuccessful, he will execute cutaway
+        procedures.
+        \n•\t\t\t<b>Pilot Chute Entangled with Right Arm (BOC).</b> If the pilot chute is entangled with the right arm,
+        the jumper will attempt to untangle it by using a swimming motion to remove the bridle from his
+        arm. If unsuccessful, he will perform cutaway procedures.
+        \n•\t\t\t<b>Pack Closure.</b> The jumper pulls the OTS ripcord or releases the hand-deployed pilot chute
+        (BOC) and checks over his right shoulder. If no pilot chute deploys, he immediately checks over
+        the right shoulder again. If this does not correct the malfunction, he will execute cutaway
+        procedures.
+        \n•\t\t\t<b>Hand-Deployed Pilot Chute in Tow (BOC).</b> In the event the main container assembly does not
+        open after the hand-deployed pilot chute has been released, the jumper executes cutaway
+        procedures.
+        \n•\t\t\t<b>Pilot Chute Hesitation.</b>  The jumper looks over the right shoulder to disrupt the partial vacuum
+        to clear the burble. If the main parachute does not deploy, the jumper will perform cutaway
+        procedures.</string>
+    <string name="postopening_emergency_procedures">With all malfunctions, a canopy controllability check is required
+        after appropriate actions are taken as per the malfunction. Postopening emergency problems that require a
+        visual and/or canopy controllability check are as follows:
+        \n•\t\t\tLook left; turn left 90 degrees.
+        \n•\t\t\tLook right; turn right 90 degrees.
+        \n•\t\t\tDetermine the flare point.
+        \n•\t\t\t50-percent Rule: If the canopy requires 50-percent opposite toggle to counter a turn or if the
+        canopy stalls prior to 50-percent brakes, the canopy is uncontrollable.
+        <b><i>Note:</i></b> Make only two attempts to clear a malfunction. Cutaway procedures must be
+        initiated by 2,500 feet AGL.</string>
+    <string name="streamer_snivel">The jumper will reach up and release the brakes and pull the toggles down to full-brakes
+        position for 3 to 4 seconds. The jumper will then let up slowly to 50-percent brake setting. If the malfunction
+        is not clear, the jumper will make one more attempt to pull the toggles down to full-brakes position for 3 to 4
+        seconds. If the malfunction still has not cleared, the jumper will perform cutaway procedures.</string>
+    <string name="line_twists">Follow these procedures for line twists:
+        \n•\t\t\tReach up with both hands, thumbs pointed down, and separate the risers.
+        \n•\t\t\tUse a bicycling motion or kick both legs in the opposite direction of the twist to untwist the lines.
+        \n•\t\t\tDo not unstow the brakes until line twists are cleared.
+        \n•\t\t\tMaintain altitude awareness and if unable to clear twists or the twists are still above the cascades
+        by 2,500 feet AGL, initiate cutaway procedures.</string>
+    <string name="hung_slider">If the slider remains above the cascades, it will deform the canopy and degrade lift and
+        drive performance to an unacceptable level. Follow these procedures for a hung slider:
+        \n•\t\t\tPump both rear risers vigorously to move the slider downward.
+        \n•\t\t\tRelease both sets of toggles and pump vigorously to bring the slider down completely if the rear
+        risers are not successful. The slider must travel at least half way down, past the suspension line
+        cascades, before attempting a canopy controllability check.
+        \n•\t\t\tIf unable to clear the slider past the cascades or pass a canopy controllability check, initiate
+        cutaway procedures by 2,500 feet AGL.</string>
+    <string name="closed_end_cells">Follow these procedures for closed end cells:
+        \n•\t\t\tPull toggles down to full-brake position and hold for 4 seconds and let up quickly.
+        \n•\t\t\tRepeat the procedure if end cells do not open.
+        \n•\t\t\tConduct a canopy controllability check. Use the 50-percent rule if necessary. Consider wind,
+        turbulence, distance, and condition of the DZ if canopy barely passes the test. If the canopy is
+        controllable, fly and land as planned.
+        \n•\t\t\tIf the canopy is uncontrollable or does not pass the test, initiate cutaway procedures by
+        2,500 feet AGL.</string>
+    <string name="pilot_chute_over_nose">Follow these procedures for drogue pilot chute over the nose:
+        \n•\t\t\tAttempt to flip the pilot chute back over the top of the canopy by bringing toggles to full brakes
+        (flaring) and letting the toggles up abruptly.
+        \n•\t\t\tConduct a canopy controllability check 50-percent rule if necessary.
+        \n•\t\t\tIf the canopy is controllable, fly and land as planned.
+        \n•\t\t\tIf the canopy is uncontrollable, initiate cutaway procedures by 2,500 feet AGL.</string>
+    <string name="tension_knots">Follow these procedures for tension knots:
+        \n•\t\t\tStop the turn with opposite rear riser input.
+        \n•\t\t\tSnap the risers of the affected line group by pulling down and releasing.
+        \n•\t\t\tAfter two attempts, release the toggles and come to a full brake position, hold for 3 to 4 seconds,
+        then let up slowly.
+        \n•\t\t\tAfter two attempts, conduct a canopy controllability check. If the canopy is controllable, fly and
+        land as planned.
+        \n•\t\t\tIf the canopy is uncontrollable, initiate cutaway procedures by 2,500 feet AGL.</string>
+    <string name="broken_suspension_lines">If suspension lines (A, B, C, D) break during opening,
+        follow these procedures:
+        \n•\t\t\t<b>Stop the Turn with Rear Riser Input.</b> It may be difficult to identify the broken lines and the
+        canopy may or may not look deformed. If there are two or more lines broken or if there are any
+        A-lines broken, immediately perform cutaway procedures.
+        \n•\t\t\t<b>Conduct a Canopy Controllability Check.</b> Use the 50-percent rule if necessary. Consider
+        wind, turbulence, distance, and condition of the DZ. If the canopy is controllable, fly and land as
+        planned. If the canopy is uncontrollable, initiate cutaway procedures by 2,500 feet AGL.</string>
+    <string name="rips_or_tears">If you notice rips or tears in the bottom skin of the canopy during canopy check,
+        follow these procedures:
+        \n•\t\t\tIf possible, check your rate of descent with other jumpers.
+        \n•\t\t\tIf you are descending faster than the other jumpers, execute cutaway procedures.
+        \n•\t\t\tIf you are not descending faster than other jumpers, conduct a canopy controllability check.
+        \n•\t\t\tIf there is a rip or tear on the top skin of the canopy, execute cutaway procedures.</string>
+    <string name="premature_break_release">Follow these procedures for a premature brake release:
+        \n•\t\t\tStop the turn with rear riser input (the released side).
+        \n•\t\t\tImmediately release the other toggle control line.
+        \n•\t\t\tConduct a canopy controllability check. If the canopy is uncontrollable, initiate cutaway
+        procedures by 2,500 feet.</string>
+    <string name="broken_control_lines">Follow these procedures for broken control line(s):
+        \n•\t\t\tStop the turn using the opposite rear riser.
+        \n•\t\t\tRelease the other control line.
+        \n•\t\t\tSteer using the good control line and opposite rear riser.
+        \n•\t\t\tDetermine the flare point at a safe altitude using only the rear risers; note that the canopy
+        responds much quicker while using the rear risers.
+        \n•\t\t\tFlare using both rear risers only.</string>
+    <string name="canopy_control_procedures_subtitle">Jumpmasters will cover all canopy control and landing procedures in this section.</string>
+    <string name="entering_a_cloud_under_canopy">The jumper will follow these procedures when entering a cloud:
+        \n•\t\t\tStops all turns and stays alert.
+        \n•\t\t\tUses 50-percent brakes.
+        \n•\t\t\tMaintains heading and picks up reference points if possible prior to entering the cloud.
+        \n•\t\t\tMaintains altitude and air awareness.</string>
+    <string name="dual_canopy_intro">If both the main and reserve canopies deploy on exit, the jumper identifies
+        the configuration: side-by-side, bi-plane, in between, or down plane.</string>
+    <string name="side_by_side">•\t\t\tEnsure canopies are not entangled by tracing all eight risers
+        through the sliders to respective lines and canopies. Risers should cross properly.
+        \n•\t\t\tDo not release the brakes on either canopy. If brakes released on one canopy, fly at half brakes
+        to match forward speed of the other canopy.
+        \n•\t\t\tIf canopies are not entangled, place the left hand on the left rear riser of the left canopy.
+        \n•\t\t\tPlace the right hand on the red cutaway pillow.
+        \n•\t\t\tSeparate the canopies into a down plane with the left hand on the left rear riser of the left canopy.
+        \n•\t\t\tPeel and pull the red cutaway pillow to full-arm extension and let go of the riser and cutaway
+        handle simultaneously.
+        \n•\t\t\tIf the canopies are entangled, or if unsure whether they are entangled, or below 1,000 feet AGL, steer
+        the best-looking canopy with the rear risers; gently turn toward the other canopy to prevent a downplane
+        configuration; do not attempt to flare and be prepared for a parachutist landing fall (PLF).</string>
+    <string name="bi_plane">•\t\t\tEnsure canopies are not entangled by tracing all eight risers through their sliders to respective
+        lines and canopies. Risers should cross properly.
+        \n•\t\t\tSeparate canopies into a side by side.
+        \n•\t\t\tUse left rear riser of the left canopy to separate canopies into a down plane.
+        \n•\t\t\tRelease the rear riser with the left hand while pulling the red cutaway pillow with the right hand.
+        \n•\t\t\tIf the canopies are entangled or below 1,000 feet AGL, steer the front canopy with the rear risers,
+        making all turns gently and the trail canopy will follow along.
+        \n•\t\t\tMake all turns gently in either direction, preventing canopies from going into a down plane.
+        \n•\t\t\tAttempt to steer into the wind.
+        \n•\t\t\tDo not attempt to flare and be prepared to conduct a PLF.</string>
+    <string name="in_between">•\t\t\tEnsure canopies are not entangled by tracing all eight risers through their sliders to respective
+        lines and canopies. Risers should cross properly.
+        \n•\t\t\tSeparate canopies into a side by side.
+        \n•\t\t\tUse left rear riser of the left canopy to separate canopies into a down plane.
+        \n•\t\t\tRelease the rear riser with the left hand while pulling the red cutaway pillow with the right hand.
+        \n•\t\t\tIf the canopies are entangled or below 1,000 feet AGL, steer the front canopy with the rear risers,
+        making all turns gently and the trail canopy will follow along.
+        \n•\t\t\tMake all turns gently in either direction, preventing canopies from going into a down plane.
+        \n•\t\t\tAttempt to steer into the wind.
+        \n•\t\t\tDo not attempt to flare and be prepared to conduct a PLF.</string>
+    <string name="down_plane">•\t\t\tEnsure canopies are not entangled by tracing all eight risers through their sliders to respective
+        lines and canopies. Risers should cross properly.
+        \n•\t\t\tPull the red cutaway pillow with the right hand.
+        \n•\t\t\tIf the canopies are entangled, or if unsure whether they are entangled, or below 1,000 feet AGL,
+        steer canopies toward each other with rear risers to get them into a side-by-side configuration.
+        It may require a continuous effort all the way to the ground to keep canopies together.
+        \n•\t\t\tDo not attempt to flare and be prepared to conduct a PLF.</string>
+    <string name="partially_deployed_reserve">•\t\t\tDo not unstow brakes. If brakes have already been unstowed, slow the main to prevent the
+        reserve from fully deploying.
+        \n•\t\t\tAttempt to pull in the reserve deployment bag and contain it in your arms.
+        \n•\t\t\tIf the canopy begins to inflate, make sure that the suspension lines or risers do not become
+        entangled with you or your equipment.
+        \n•\t\t\tLet the canopies settle into a configuration, continuously inspecting for entanglements. Follow
+        the procedures for that configuration.
+        \n•\t\t\tIf the reserve is still in the deployment bag, carefully gather and coil the suspension lines in one
+        hand while lifting the bagged canopy.
+        \n•\t\t\tAttempt to prevent the locking stows from popping open and allowing the reserve canopy to slide
+        out of the deployment bag.
+        \n•\t\t\tContinue until the bagged canopy is in hand. Keep a firm grip on the bagged canopy.
+        \n•\t\t\tSteer by leaning in the harness or reaching up with one hand to make rear riser turns.
+        \n•\t\t\tAt 15 feet AGL, drop the bagged canopy to the ground and flare the canopy on rear risers. Be
+        prepared to conduct a PLF.</string>
+    <string name="canopy_entanglements_overview">Follow these procedures for entanglements with another jumper:
+        \n•\t\t\tAlways attempt to steer clear of other jumpers by turning away.
+        \n•\t\t\tLower jumper has the right of way.
+        \n•\t\t\tIf a collision with another jumper is imminent, steer to avoid body-to-body contact. Assume the
+        modified spread-eagle position.
+        \n•\t\t\tProtect your cutaway pillows with your left arm and attempt to bounce off.
+        \n•\t\t\tIf line entanglement occurs, stay calm and do not grab cutaway pillows.
+        \n•\t\t\tCheck altitude and look for the other jumper.
+        \n•\t\t\tAssess the situation before acting in any way.
+        \n•\t\t\tCommunicate altitude and positive commands only.
+        \n•\t\t\tNever say “cutaway” unless you are telling the other jumper to execute cutaway procedures. If
+        you intend to cutaway, use the words, “I’m executing emergency procedures.”</string>
+    <string name="canopy_entanglements_over_2000">Follow these procedures for entanglements above 2,000 feet AGL:
+        \n•\t\t\tIf the higher jumper has a good canopy, that jumper should attempt to clear the entanglement
+        while protecting emergency pillows.
+        \n•\t\t\tFollow your lines out of the entanglement if possible.
+        \n•\t\t\tIf the entanglement can be cleared, the lower canopy should re-inflate within 150 to 200 feet.
+        Both jumpers should complete a canopy controllability check and inspect their parachute and
+        harness thoroughly for damage, then decide whether it is safe to continue to fly and land.
+        \n•\t\t\tIf the canopy cannot be cleared, the engulfed jumper fails to respond or appears to be going
+        unconscious, or the altitude is approaching 2,000 feet AGL, the lower jumper should
+        communicate his intention to cutaway by saying “2,000 feet, I’m executing emergency
+        procedures,” then initiate cutaway procedures by 2,000 feet AGL after disconnecting his RSL.
+        \n•\t\t\tThe higher jumper should clear the canopy from his face and controls so that he can see and
+        steer.
+        \n•\t\t\tHe should continue to clear the canopy if possible, keeping his cutaway pillows protected.
+        \n•\t\t\tIf the canopy cannot be cleared safely, he should fly slowly with brakes to diminish the other
+        canopies drag and potential for interference in flight and control.</string>
+    <string name="canopy_entanglements_1000_to_2000">Follow these procedures for entanglements between 2,000 feet AGL and 1,000 feet AGL:
+        \n•\t\t\tJumpers should communicate altitudes and positive commands, such as “1,500 feet, hold onto
+        me” or “1,000 feet, I got you”.
+        \n•\t\t\tThe lower jumper has two options. He can perform cutaway procedures after disconnecting his
+        RSL or land with the higher jumper.
+        \n•\t\t\tIf the lower jumper decides to land with the higher jumper, the lower jumper should jettison his
+        equipment if worn.
+        \n•\t\t\tThe higher jumper should maintain control of the lower parachutist and fly final approach at half
+        brakes if possible.
+        \n•\t\t\tHigher jumper lands at half brakes; both jumpers should execute a PLF.</string>
+    <string name="canopy_entanglements_under_1000">Follow these procedures for entanglements below 1,000 feet AGL:
+        \n•\t\t\tThe higher jumper should make every effort to maintain the lower jumper’s canopy.
+        \n•\t\t\tThe higher jumper should maintain control of the lower jumper and fly final approach at half
+        brakes if possible.
+        \n•\t\t\tThe lower jumper should jettison combat equipment if worn.
+        \n•\t\t\tBoth jumpers need to be prepared to execute a PLF.</string>
+    <string name="canopy_entanglements_no_good_chutes">Follow these procedures for entanglements when neither jumper has a good canopy:
+        \n•\t\t\tJumpers should attempt to establish communication such as altitudes and positive commands.
+        \n•\t\t\tIf both canopies are uncontrollable and/or collapsed, it may be difficult to establish which jumper
+        is higher and which is lower and it may be alternating repeatedly.
+        \n•\t\t\tIf a jumper is entangled in lines, that jumper should attempt to free himself and cutaway first.
+        \n•\t\t\tThe lower jumper should cutaway after the higher jumper.
+        \n•\t\t\tThe higher jumper could be fatally engulfed in the lower jumper’s lines and canopy if the lower
+        jumper were to cutaway first.
+        \n•\t\t\tIf impact with the ground is imminent, both jumpers should deploy their reserve to increase the
+        amount of fabric exposed and the extra drag created.
+        \n•\t\t\tIf both reserve canopies deploy, both jumpers perform cutaway procedures to clear from
+        entanglement to prevent a down plane.</string>
+    <string name="canopy_entanglements_unclear_traffic_pattern">Follow these procedures for entanglements of an unclear traffic pattern:
+        \n•\t\t\tStay alert and keep your air space clear.
+        \n•\t\t\tMaintain 25 meters horizontally and vertically. (Low man has the right of way.)
+        \n•\t\t\tOffset canopies; do not fly directly behind another canopy as it causes turbulence.
+        \n•\t\t\tAssess the situation and move into formation or get on the wind line and establish the traffic
+        pattern.
+        \n•\t\t\tFollow the low man or lead the group if you are the low man.
+        \n•\t\t\tStay upwind and use the 60-degree method to reach intended target.
+        \n•\t\t\tKeep your options open and look for alternate landing areas en route to the DZ. Set up the
+        pattern so that the entire group can be into the wind by 300 feet AGL.
+        \n•\t\t\tWhen flying through clouds, come to half brakes and maintain your heading and altitude
+        awareness until you pass through the clouds. Keep a sharp lookout for other jumpers.</string>
+    <string name="landing_pattern">Components of the pattern include holding area, downwind leg, base leg, and final approach.
+        \n•\t\t\t<b>Downwind Leg.</b> Enter the landing pattern at 900 feet AGL. Offset from where you want to land
+        60-degree angle (dependent upon winds). Check lowering line. Fly the landing pattern at quarter
+        to half brakes making no radical turns.
+        \n•\t\t\t<b>Base Leg.</b> Turn onto the base leg (crosswind) at approximately 600 feet AGL. Adjust the angle
+        (upwind or downwind) if needed, so that when you turn onto final approach you can land at the
+        desired impact point.
+        \n•\t\t\t<b>Final Approach.</b> Turn onto final approach (into the wind) so that you are facing upwind by
+        300 feet AGL and in normal wind conditions at a 60-degree angle. Continue to fly the canopy by
+        applying brakes as needed and making heading adjustments of no more than 45 degrees with
+        half brakes. Once on final, clear airspace below and lower combat equipment at 200 to
+        100 feet AGL. Be prepared to counter the weight shift.
+        \nIf your combat equipment has not been lowered by 100 feet AGL, you will land with your equipment attached.</string>
+    <string name="landing_overview">Follow these procedures for landing:
+        \n•\t\t\tAt 200 feet AGL, go to full flight to fully inflate the canopy and generate speed for landing.
+        \n•\t\t\tInitiate the flare between 10 to 15 feet AGL depending on the wind speed. Higher winds
+        (11 to 18 knots) flare lower; lower winds (0 to 10 knots) flare higher. If you flare too high, hold
+        toggles in the full brake position and be prepared to do a PLF. Do not use combat equipment as
+        a flare indicator.
+        \n•\t\t\tContinue to give toggle input as needed to counter gusts and keep the canopy over your head.
+        \n•\t\t\tAfter landing, push risers to one side or pull one toggle to collapse the canopy. Follow SOPs for
+        assembly procedures.
+        \nFor night landings, go to full brake position at approximately 100 feet AGL, look to the horizon, keep your feet
+        and knees together, and execute a PLF.</string>
+    <string name="tree_landings">Attempt to steer away. If unable to avoid trees:
+        \n•\t\t\tIf you have already lowered your combat equipment, jettison it. If not, leave it attached for added
+        protection.
+        \n•\t\t\tKeep your goggles over your eyes and oxygen mask on if worn.
+        \n•\t\t\tTurn the canopy into the wind and attempt a vertical descent between the trees if growth is
+        sparse. If dense trees, attempt to cap your canopy on top of the trees or catch the canopy on
+        the thickest branches.
+        \n•\t\t\tProtect your face with your forearms.
+        \n•\t\t\tKeep your feet and knees together and be prepared to execute a PLF.
+        \n•\t\t\tIf you are suspended and cannot climb down, wait for assistance.</string>
+    <string name="water_landings">Attempt to steer away. If unable to avoid water:
+        \n•\t\t\tAttempt to land as close to shore as possible.
+        \n•\t\t\tJettison your combat equipment and oxygen mask if worn.
+        \n•\t\t\tUnhook your RSL; unfasten your chest strap and waistband.
+        \n•\t\t\tLand into the wind and flare as normal. Be prepared to do a PLF in case the water is shallow.
+        \n•\t\t\tAfter you have entered the water, release your leg straps, arch out of the harness, and swim
+        free of the harness and suspension lines.
+        \n•\t\t\tIf you are being dragged, pull the red cutaway pillow.
+        \n•\t\t\tIf you are trapped under the canopy, follow a seam to the edge. If you need to breathe, form a
+        triangle with your hands, push up on the fabric enough to create an air pocket.</string>
+    <string name="wire_landings">Attempt to steer away. If unable to avoid wires:
+        \n•\t\t\tDisconnect your RSL.
+        \n•\t\t\tJettison your combat equipment and turn off your oxygen if worn.
+        \n•\t\t\tAttempt to parallel the wires in a braked position to attain a vertical descent through the wires.
+        Be prepared to do a PLF in case you pass through the wires.
+        \n•\t\t\tIf contact with the ground is made, cutaway the main canopy and move away.
+        \n•\t\t\tIf suspended, remain motionless until the power is cut off. Do not let anyone touch you and do
+        not cutaway.</string>
+    <string name="high_wind_landings">•\t\t\tAt 1,500 feet AGL, disconnect your RSL.
+        \n•\t\t\tAs soon as your feet touch the ground, release one toggle and pull the other toggle hand over
+        hand until the canopy collapses.
+        \n•\t\t\tPivot in the direction of the pulled toggle.
+        \n•\t\t\tAttempt to contain the tail of the canopy.</string>
+    <string name="recovery_from_a_drag">•\t\t\tRelease one toggle completely.
+        \n•\t\t\tPull the other toggle and steering line in hand over hand until the canopy collapses or canopy
+        fabric is in hand.
+        \n•\t\t\tIf you cannot get to your feet or collapse the canopy because of injury or other issues, disconnect
+        the RSL (if not already disconnected), and pull the red cutaway pillow.</string>
+    <string name="dust_devils">•\t\t\tIf you fly through a dust devil, go to full flight in an attempt to build speed.
+        Be prepared to execute a PLF if close to the ground. If you land and are overtaken by a dust devil, gather up as much
+        canopy as possible and lay down on it.
+        \n•\t\t\tAfter landing if control of the canopy is lost, ensure the RSL is disconnected and pull the red
+        cutaway pillow.</string>
+    <string name="obstacles_on_drop_zone">•\t\t\tAttempt to steer away. Look away; steer away.
+        \n•\t\t\tIf you are unable to steer clear, make contact with both feet and execute a PLF.</string>
+    <string name="assembly_procedures">Assembly procedures for administrative and tactical jumps will be explained to all jumpers.
+        \n•\t\t\tAdministrative.
+        \n•\t\t\tTactical.</string>
+    <string name="haho_procedures">•\t\t\tCheck in.
+        \n•\t\t\tIdentify the low man, number 2 man, and high man. Low man drives to the DZ, taking control
+        cues from the number 2 and high man.</string>
+    <string name="bundle_procedures">•\t\t\tDuty positions (bundle safety/bundle pusher/loadmaster).
+        \n•\t\t\tComplete bundle operation (timeline).
+        \n•\t\t\tJumper’s actions on exit, under canopy, and landing.
+        \n•\t\t\tCollision or entanglement emergency procedures with the bundle.</string>
+
+</resources>
+

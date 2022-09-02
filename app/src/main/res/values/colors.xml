@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="atpBackgroundColor">#FFFFFF</color>
+    <color name="enterWindsColor">#F1F1F1</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textTitleColor">#C5C5C5</color>
+    <color name="buttonPress">#33FFFFFF</color>
+    <color name="buttonHover">#72FFFFFF</color>
+    <color name="brownBoxATP">#eedfcd</color>
+    <color name="titleBoxATP">#1c422e</color>
+    <color name="yellowWarningBox">#f0be1e</color>
+</resources>

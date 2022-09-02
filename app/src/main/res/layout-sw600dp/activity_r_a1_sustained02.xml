@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/atpBackgroundColor"
+    tools:context=".RA1Sustained01">
+
+    <View
+        android:id="@+id/topBarView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/atp_bar_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/returnToMenuBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/brownBoxATP"
+        android:fontFamily="@font/roboto_bold"
+        android:onClick="returnToMenu"
+        android:text="Menu"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/topBarView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/textOptionsBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="18sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/text_size"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/topBarView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Change Text Size" />
+    <View
+        android:id="@+id/bottomBarView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/atp_bar_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/nextPageBtn"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:onClick="nextPage"
+        android:padding="12dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/right_arrow"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomBarView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottomBarView" />
+
+    <ImageButton
+        android:id="@+id/previousPageBtn"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:onClick="previousPage"
+        android:padding="12dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/left_arrow"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomBarView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottomBarView" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomBarView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarView" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/jumpmasterBriefingTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="serif"
+                android:text="JUMPMASTER BRIEFING"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/jumpmasterBriefingSubTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="42dp"
+                android:fontFamily="serif"
+                android:text="@string/jumpmaster_briefing_overview"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jumpmasterBriefingTitleTextView" />
+
+            <TextView
+                android:id="@+id/rollCallTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/darker_brown_box_sat_top"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="5dp"
+                android:text="Roll Call"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jumpmasterBriefingSubTitleTextView" />
+
+            <View
+                android:id="@+id/middleLine"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintTop_toBottomOf="@+id/jumpmasterBriefingSubTitleTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/rollCallTextView" />
+
+            <TextView
+                android:id="@+id/idCardTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:background="@drawable/atp_left_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="Identification card."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/middleLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rollCallTextView" />
+
+            <TextView
+                android:id="@+id/idTagsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/atp_right_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="Identification tags."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/idCardTextView"
+                app:layout_constraintTop_toBottomOf="@+id/rollCallTextView" />
+
+            <TextView
+                android:id="@+id/keyPersonnelTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/darker_brown_box_sat"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="5dp"
+                android:text="Key Personnel"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idTagsTextView" />
+
+            <TextView
+                android:id="@+id/keyPersonnelDetailsLeftTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:background="@drawable/atp_left_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_key_personnel_left"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/middleLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/keyPersonnelTextView" />
+
+            <TextView
+                android:id="@+id/keyPersonnelDetailsRightTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/atp_right_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_key_personnel_right"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/keyPersonnelDetailsLeftTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/keyPersonnelDetailsLeftTextView"
+                app:layout_constraintTop_toBottomOf="@+id/keyPersonnelTextView" />
+
+            <TextView
+                android:id="@+id/operationalDataTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/darker_brown_box_sat"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="5dp"
+                android:text="Operational Data"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/keyPersonnelDetailsLeftTextView" />
+
+            <TextView
+                android:id="@+id/opDataDetailsLeftTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:background="@drawable/atp_left_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_op_data_left"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/middleLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/operationalDataTextView" />
+
+            <TextView
+                android:id="@+id/opDataDetailsRightTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/atp_right_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_op_data_right"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/opDataDetailsLeftTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/opDataDetailsLeftTextView"
+                app:layout_constraintTop_toBottomOf="@+id/operationalDataTextView" />
+
+            <TextView
+                android:id="@+id/individualEquipmentTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/darker_brown_box_sat"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="5dp"
+                android:text="Individual Equipment"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/opDataDetailsRightTextView" />
+
+            <TextView
+                android:id="@+id/individualEquipmentLeftTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:background="@drawable/atp_left_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="Actions at the departure airfield."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/middleLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/individualEquipmentTitleTextView" />
+
+            <TextView
+                android:id="@+id/individualEquipmentRightTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/atp_right_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="In-flight rigging."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/individualEquipmentLeftTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/individualEquipmentLeftTextView"
+                app:layout_constraintTop_toBottomOf="@+id/individualEquipmentTitleTextView" />
+
+            <TextView
+                android:id="@+id/dropZoneTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/darker_brown_box_sat"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="5dp"
+                android:text="Drop Zone"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/individualEquipmentRightTextView" />
+
+            <TextView
+                android:id="@+id/dropZoneLeftTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:background="@drawable/atp_left_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_drop_zone_left"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/middleLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dropZoneTitleTextView" />
+
+            <TextView
+                android:id="@+id/dropZoneRightTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/atp_right_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_drop_zone_right"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/dropZoneLeftTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/dropZoneLeftTextView"
+                app:layout_constraintTop_toBottomOf="@+id/dropZoneTitleTextView" />
+
+            <TextView
+                android:id="@+id/aircraftTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/darker_brown_box_sat"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="5dp"
+                android:text="Aircraft"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dropZoneLeftTextView" />
+
+
+            <TextView
+                android:id="@+id/aircraftLeftTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:background="@drawable/atp_left_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_aircraft_left"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/middleLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/aircraftTitleTextView" />
+
+            <TextView
+                android:id="@+id/aircraftRightTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/atp_right_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_aircraft_right"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/aircraftLeftTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/aircraftLeftTextView"
+                app:layout_constraintTop_toBottomOf="@+id/aircraftTitleTextView" />
+
+            <TextView
+                android:id="@+id/weatherTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/darker_brown_box_sat"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="5dp"
+                android:text="Weather"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/aircraftLeftTextView" />
+
+            <TextView
+                android:id="@+id/weatherLeftTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:background="@drawable/atp_left_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_weather_left"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/middleLine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/weatherTitleTextView" />
+
+            <TextView
+                android:id="@+id/weatherRightTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/atp_right_box"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/sustained_weather_right"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/weatherLeftTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/weatherLeftTextView"
+                app:layout_constraintTop_toBottomOf="@+id/weatherTitleTextView" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginEnd="42dp"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/weatherLeftTextView" />
+
+            <TextView
+                android:id="@+id/footerDateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="28 April 2020"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/weatherRightTextView" />
+
+            <TextView
+                android:id="@+id/footerNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="42dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="ATP 3-18.11"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/weatherRightTextView" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="42dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/footerNameTextView" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

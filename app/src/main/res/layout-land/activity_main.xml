@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mffjmBadgeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mffjm_badge" />
+
+    <TextView
+        android:id="@+id/mffjmMainMenuTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/overpass_bold"
+        android:text="MILITARY FREE-FALL JUMPMASTER"
+        android:textColor="@color/textTitleColor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mffjmBadgeImageView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="596dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/mffjmMainMenuTextView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/paperCalcsBtn"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#000000"
+                android:onClick="paperCalcsBtnPush"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/papercalcsblank" />
+
+            <ImageButton
+                android:id="@+id/cypresCalcsBtn"
+                android:layout_width="350dp"
+                android:layout_height="130dp"
+                android:backgroundTint="#000000"
+                android:onClick="cypresCalcsBtnPush"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cypresblank2" />
+
+            <ImageButton
+                android:id="@+id/altimeterBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:backgroundTint="#000000"
+                android:onClick="altimeterCalcsBtnPush"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cypresCalcsBtn"
+                app:srcCompat="@drawable/altblank" />
+
+            <ImageButton
+                android:id="@+id/jmpiBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:backgroundTint="#000000"
+                android:onClick="jmpiRefresherBtnPush"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/satBtn"
+                app:srcCompat="@drawable/jmpidummy" />
+
+            <ImageButton
+                android:id="@+id/satBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:backgroundTint="#000000"
+                android:onClick="jmpiRefresherBtnPush"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/altimeterBtn"
+                app:srcCompat="@drawable/coolsunset" />
+
+            <TextView
+                android:id="@+id/jmpiMenuTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_bold"
+                android:text="JMPI REFRESHER"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/jmpiBtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/jmpiBtn" />
+
+            <TextView
+                android:id="@+id/paperCalcsMenuTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_bold"
+                android:text="MFF PAPER CALCS"
+                android:textAlignment="textStart"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/paperCalcsBtn"
+                app:layout_constraintEnd_toEndOf="@+id/paperCalcsBtn"
+                app:layout_constraintStart_toStartOf="@+id/paperCalcsBtn"
+                app:layout_constraintTop_toTopOf="@+id/paperCalcsBtn" />
+
+            <TextView
+                android:id="@+id/cypresMenuTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_bold"
+                android:text="MILITARY CYPRES CALCULATOR"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cypresCalcsBtn"
+                app:layout_constraintEnd_toEndOf="@+id/cypresCalcsBtn"
+                app:layout_constraintStart_toStartOf="@+id/cypresCalcsBtn"
+                app:layout_constraintTop_toTopOf="@+id/cypresCalcsBtn"
+                app:layout_constraintVertical_bias="0.495" />
+
+            <TextView
+                android:id="@+id/altimeterMenuTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_bold"
+                android:text="CALCULATE ALTIMETER SETTING"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/altimeterBtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/altimeterBtn" />
+
+            <TextView
+                android:id="@+id/satMenuTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_bold"
+                android:text="MFF SAT"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/satBtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/satBtn" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
